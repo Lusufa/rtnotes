@@ -24,7 +24,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/api/send",
-        destination: "https://analytics.notesbuddy.in/api/send",
+        destination: "https://analytics.Noterious.in/api/send",
       },
     ];
   },

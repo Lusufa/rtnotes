@@ -102,7 +102,7 @@ const testimonials = [
     role: "B. Tech CSE (Medicaps University)",
     image: "/avatar/1.jpg",
     content:
-      "Notes Buddy transformed my study routine. The concise notes and quick one-shots helped me ace my exams with much less stress.",
+      "Noterious transformed my study routine. The concise notes and quick one-shots helped me ace my exams with much less stress.",
     rating: 5,
   },
   {
@@ -126,7 +126,7 @@ const testimonials = [
     role: "B. Tech CSE (IPS University)",
     image: "/avatar/4.jpg",
     content:
-      "The practice quizzes helped me identify my weak areas quickly. My grades improved significantly after using Notes Buddy.",
+      "The practice quizzes helped me identify my weak areas quickly. My grades improved significantly after using Noterious.",
     rating: 5,
   },
   {
@@ -134,7 +134,7 @@ const testimonials = [
     role: "B. Tech CSE (Medicaps University)",
     image: "/avatar/5.jpg",
     content:
-      "Clean, organized, and effective. Notes Buddy made studying enjoyable instead of overwhelming. Best investment for my education.",
+      "Clean, organized, and effective. Noterious made studying enjoyable instead of overwhelming. Best investment for my education.",
     rating: 5,
   },
   {
@@ -191,7 +191,7 @@ export default function Testimonial() {
             variants={titleVariants}
           >
             Join thousands of students who have transformed their learning
-            experience with Notes Buddy
+            experience with Noterious
           </motion.p>
         </motion.div>
 

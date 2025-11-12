@@ -610,6 +610,7 @@ export default function AdminNotesImport() {
                       <SelectValue placeholder="Select University" />
                     </SelectTrigger>
                     <SelectContent>
+                      <SelectItem value="coer">Coer University</SelectItem>
                       <SelectItem value="medicaps">
                         Medicaps University
                       </SelectItem>

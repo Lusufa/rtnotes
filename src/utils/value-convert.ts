@@ -5,6 +5,7 @@ export function convertSanityValueToPrismaValue(
 ): string | null {
   const conversionMaps = {
     university: {
+      coer: "COER",
       medicaps: "MEDICAPS",
       ips: "IPS",
     },
@@ -44,6 +45,7 @@ export function convertPrismaValueToDisplayFormat(
 ): string {
   const displayMaps = {
     university: {
+      COER: "Coer University",
       MEDICAPS: "Medicaps University",
       IPS: "IPS University",
     },

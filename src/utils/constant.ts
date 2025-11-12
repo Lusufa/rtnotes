@@ -1,4 +1,9 @@
 export const UNIVERSITY_OPTIONS = {
+  COER: {
+    prismaValue: "COER",
+    sanityValue: "coer",
+    title: "Coer University",
+  },
   MEDICAPS: {
     prismaValue: "MEDICAPS",
     sanityValue: "medicaps",

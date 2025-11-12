@@ -51,14 +51,14 @@ export const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in",
+    process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.Noterious.in",
   ),
   title: {
-    default: "Notes Buddy - Study Smarter with AI-Powered Learning",
-    template: "%s | Notes Buddy",
+    default: "Noterious - Study Smarter with AI-Powered Learning",
+    template: "%s | Noterious",
   },
   description:
-    "Transform your learning experience with Notes Buddy - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance. Join thousands of students achieving academic excellence.",
+    "Transform your learning experience with Noterious - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance. Join thousands of students achieving academic excellence.",
   keywords: [
     "study notes",
     "flashcards",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     "academic notes",
     "quiz platform",
     "study tools",
-    "Notes Buddy",
+    "Noterious",
     "Study smarter",
     "Engineering notes",
     "B.Tech notes",
@@ -84,8 +84,9 @@ export const metadata: Metadata = {
     "Organized notes",
     "Efficient study tools",
     "Medicaps university",
+    "Coer university",
     "notesera",
-    "notesbuddy notes",
+    "Noterious notes",
     "b.tech notes",
     "b.tech first year notes",
     "b.tech second year notes",
@@ -102,8 +103,8 @@ export const metadata: Metadata = {
     "b.tech semester 8 notes",
   ],
   authors: [{ name: "@ramxcodes" }],
-  creator: "Notes Buddy",
-  publisher: "Notes Buddy",
+  creator: "Noterious",
+  publisher: "Noterious",
   robots: {
     index: true,
     follow: true,
@@ -122,17 +123,17 @@ export const metadata: Metadata = {
   },
   category: "education",
   openGraph: {
-    title: "Notes Buddy - Study Smarter with AI-Powered Learning",
+    title: "Noterious - Study Smarter with AI-Powered Learning",
     description:
-      "Transform your learning experience with Notes Buddy - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance. Join thousands of students achieving academic excellence.",
+      "Transform your learning experience with Noterious - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance. Join thousands of students achieving academic excellence.",
     url: "/",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Notes Buddy - Study Smarter with AI-Powered Learning",
+        alt: "Noterious - Study Smarter with AI-Powered Learning",
       },
     ],
     locale: "en_US",
@@ -140,9 +141,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Notes Buddy - Study Smarter with AI-Powered Learning",
+    title: "Noterious - Study Smarter with AI-Powered Learning",
     description:
-      "Transform your learning experience with Notes Buddy - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance.",
+      "Transform your learning experience with Noterious - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance.",
     images: ["/opengraph-image.png"],
   },
 };

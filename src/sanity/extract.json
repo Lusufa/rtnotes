@@ -328,6 +328,10 @@
           "of": [
             {
               "type": "string",
+              "value": "coer"
+            },
+            {
+              "type": "string",
               "value": "medicaps"
             },
             {

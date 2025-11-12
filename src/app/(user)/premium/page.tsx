@@ -32,12 +32,11 @@ export const metadata: Metadata = {
     "academic success",
   ],
   openGraph: {
-    title:
-      "Premium Membership - Unlock Advanced Learning Features | Notes Buddy",
+    title: "Premium Membership - Unlock Advanced Learning Features | Noterious",
     description:
       "Upgrade to Premium and unlock exclusive study materials, advanced AI features, unlimited quiz attempts, and premium flashcard sets.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/premium`,
-    siteName: "Notes Buddy",
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.Noterious.in"}/premium`,
+    siteName: "Noterious",
     locale: "en_US",
     type: "website",
   },
@@ -46,11 +45,11 @@ export const metadata: Metadata = {
     title: "Premium Membership - Unlock Advanced Learning Features",
     description:
       "Upgrade to Premium and unlock exclusive study materials, advanced AI features, unlimited quiz attempts, and premium flashcard sets.",
-    site: "@notesbuddy",
-    creator: "@notesbuddy",
+    site: "@Noterious",
+    creator: "@Noterious",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/premium`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.Noterious.in"}/premium`,
   },
   robots: {
     index: true,

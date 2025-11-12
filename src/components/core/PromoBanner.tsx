@@ -19,7 +19,7 @@ export default function PromoBanner() {
     <div className="sticky top-0 z-30 border-2 border-r-0 border-b-0 border-l-0 border-black bg-yellow-400 px-4 py-3 text-center text-black shadow-[4px_4px_0px_0px_#000] dark:bg-yellow-300 dark:shadow-[4px_4px_0px_0px_#fff]">
       {/* Mobile version - visible only on small screens */}
       <Link
-        href="https://evilcharts.com?ref=notesbuddy"
+        href="https://evilcharts.com?ref=Noterious"
         target="_blank"
         className="block md:hidden"
       >
@@ -50,7 +50,7 @@ export default function PromoBanner() {
           Evil Charts - Beautiful & Animated Charts
         </b>{" "}
         <Link
-          href="https://evilcharts.com?ref=notesbuddy"
+          href="https://evilcharts.com?ref=Noterious"
           target="_blank"
           className="w-fit rounded border-2 border-black bg-white px-2 py-1 font-black shadow-[2px_2px_0px_0px_#000] hover:bg-black hover:text-white dark:bg-black dark:text-white dark:shadow-[2px_2px_0px_0px_#000]"
         >

@@ -1,6 +1,6 @@
-## NotesBuddy : A Nextjs + Sanity based notes sharing platform.
+## Noterious : A Nextjs + Sanity based notes sharing platform.
 
-Welcome to Notes Buddy, a web platform designed for students to read and share college notes easily. Built with a modern tech stack, it ensures an easy-to-use, visually appealing, and responsive experience.
+Welcome to Noterious, a web platform designed for students to read and share college notes easily. Built with a modern tech stack, it ensures an easy-to-use, visually appealing, and responsive experience.
 
 ![HeroSectionImage](https://i.postimg.cc/8PvmSp4y/localhost-3000.png)
 
@@ -20,8 +20,8 @@ Welcome to Notes Buddy, a web platform designed for students to read and share c
 
 ### Contributors
 
-<a href="https://github.com/ramxcodes/NotesBuddy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ramxcodes/NotesBuddy" />
+<a href="https://github.com/ramxcodes/Noterious/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ramxcodes/Noterious" />
 </a>
 
 ### Tech Stack
@@ -74,15 +74,15 @@ Welcome to Notes Buddy, a web platform designed for students to read and share c
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/ramxcodes/NotesBuddy.git
+   git clone https://github.com/ramxcodes/Noterious.git
 
     # For Windows
 
-    ren NotesBuddy notes-buddy
+    ren Noterious notes-buddy
 
     # For Mac/Linux
 
-    mv NotesBuddy notes-buddy
+    mv Noterious notes-buddy
 
     cd notes-buddy
    ```
@@ -237,7 +237,7 @@ src/
 
 **Academic Hierarchy:**
 
-- University: `MEDICAPS`, `IPS`
+- University: `MEDICAPS`, `IPS`,`COER`
 - Degree: `BTECH_CSE`, `BTECH_IT`
 - Year: `FIRST_YEAR`, `SECOND_YEAR`, etc.
 - Semester: `FIRST_SEMESTER`, `SECOND_SEMESTER`, etc.

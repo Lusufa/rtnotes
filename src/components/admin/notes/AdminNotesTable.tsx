@@ -39,6 +39,10 @@ export default function AdminNotesTable({
 
   const getUniversityDisplay = (value: string) => {
     switch (value) {
+      case "coer":
+        return "Coer University";
+      case "medicaps":
+        return "Medicaps University";
       case "medicaps":
         return "Medicaps University";
       case "ips":

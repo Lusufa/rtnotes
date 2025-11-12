@@ -1,5 +1,5 @@
 -- CreateEnum
-CREATE TYPE "University" AS ENUM ('MEDICAPS', 'IPS');
+CREATE TYPE "University" AS ENUM ('COER', 'MEDICAPS', 'IPS');
 
 -- CreateEnum
 CREATE TYPE "Degree" AS ENUM ('BTECH_CSE', 'BTECH_IT');

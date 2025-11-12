@@ -186,7 +186,7 @@ export function AdminPremiumGrantForm({
     referredByUserId: "",
 
     // Academic details
-    university: "MEDICAPS" as University,
+    university: "COER" as University,
     degree: "BTECH_CSE" as Degree,
     year: "FIRST_YEAR" as Year,
     semester: "FIRST_SEMESTER" as Semester,
@@ -850,8 +850,11 @@ export function AdminPremiumGrantForm({
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="MEDICAPS">Medicaps</SelectItem>
-                        <SelectItem value="IPS">IPS</SelectItem>
+                        <SelectItem value="COER">Coer University</SelectItem>
+                        <SelectItem value="MEDICAPS">
+                          Medicaps University
+                        </SelectItem>
+                        <SelectItem value="IPS">IPS University</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -1442,8 +1445,11 @@ export function AdminPremiumGrantForm({
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="MEDICAPS">Medicaps</SelectItem>
-                        <SelectItem value="IPS">IPS</SelectItem>
+                        <SelectItem value="COER">Coer University</SelectItem>
+                        <SelectItem value="MEDICAPS">
+                          Medicaps University
+                        </SelectItem>
+                        <SelectItem value="IPS">IPS University</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>

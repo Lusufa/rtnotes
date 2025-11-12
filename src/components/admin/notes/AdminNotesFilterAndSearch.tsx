@@ -163,9 +163,13 @@ export default function AdminNotesFilterAndSearch({
                   <SelectItem value="all">All Universities</SelectItem>
                   {filterOptions?.universities.map((university) => (
                     <SelectItem key={university} value={university}>
-                      {university === "MediCaps University"
-                        ? "IPS University"
-                        : university}
+                      {university === "coer University"
+                        ? "Coer University"
+                        : university === "medicaps University"
+                          ? "Medicaps University"
+                          : university === "ips University"
+                            ? "IPS University"
+                            : university}
                     </SelectItem>
                   ))}
                 </SelectContent>

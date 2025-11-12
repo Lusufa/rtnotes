@@ -3,9 +3,9 @@ import Profile from "./profile";
 import { adminStatus } from "@/lib/db/user";
 import AdminIcon from "../icons/AdminIcon";
 import { Button } from "../ui/button";
-import Logo from "./Logo";
+// import Logo from "./Logo";
 import WhatsappIcon from "../icons/WhatsappIcon";
-import PromoBanner from "./PromoBanner";
+// import PromoBanner from "./PromoBanner";
 
 const navItems = [
   {
@@ -34,16 +34,16 @@ export default async function MainNav() {
 
   return (
     <>
-      <PromoBanner />
+      {/* <PromoBanner /> */}
       <nav className="dark:from-background dark:via-background dark:to-background/20 sticky top-0 z-50 flex items-center justify-between bg-gradient-to-b from-white via-white to-white/20 px-10 py-8 hover:cursor-pointer">
         <div className="flex items-center gap-30">
           <Link href="/" className="flex items-center">
-            <Logo className="size-10 md:size-12 lg:size-16" />
+            {/* <Logo className="size-10 md:size-12 lg:size-16" /> */}
             <h3
               data-umami-event="nav-brand-text-click"
               className="font-excon text-xl font-bold md:text-2xl"
             >
-              NotesBuddy
+              Noterious
             </h3>
           </Link>
           <div className="mt-2 hidden items-center gap-4 md:flex">

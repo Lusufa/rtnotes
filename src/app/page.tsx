@@ -7,9 +7,9 @@ import { Metadata } from "next";
 import HeroSection from "@/components/landing/HeroSection";
 
 export const metadata: Metadata = {
-  title: "Notes Buddy - Study Smarter with AI-Powered Learning",
+  title: "Noterious - Study Smarter with AI-Powered Learning",
   description:
-    "Transform your learning experience with Notes Buddy - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance. Join thousands of students achieving academic excellence.",
+    "Transform your learning experience with Noterious - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance. Join thousands of students achieving academic excellence.",
   keywords: [
     "study notes",
     "flashcards",
@@ -23,25 +23,25 @@ export const metadata: Metadata = {
     "exam preparation",
   ],
   openGraph: {
-    title: "Notes Buddy - Study Smarter with AI-Powered Learning",
+    title: "Noterious - Study Smarter with AI-Powered Learning",
     description:
-      "Transform your learning experience with Notes Buddy - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance.",
-    url: process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in",
-    siteName: "Notes Buddy",
+      "Transform your learning experience with Noterious - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance.",
+    url: process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.Noterious.in",
+    siteName: "Noterious",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Notes Buddy - Study Smarter with AI-Powered Learning",
+    title: "Noterious - Study Smarter with AI-Powered Learning",
     description:
-      "Transform your learning experience with Notes Buddy - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance.",
-    site: "@notesbuddy",
-    creator: "@notesbuddy",
+      "Transform your learning experience with Noterious - Access comprehensive study notes, interactive flashcards, AI-powered quizzes, and personalized study assistance.",
+    site: "@Noterious",
+    creator: "@Noterious",
   },
   alternates: {
     canonical:
-      process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in",
+      process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.Noterious.in",
   },
   robots: {
     index: true,
