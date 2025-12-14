@@ -13,7 +13,7 @@
     "predev": "bun run typegen",
     "prebuild": "bun run typegen",
     "typegen": "sanity schema extract --path=./src/sanity/extract.json && sanity typegen generate",
-    "prepare": "husky"
+    "prepare": "node -e \"if (!process.env.VERCEL) require('husky')\""
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
