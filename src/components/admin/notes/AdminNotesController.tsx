@@ -151,11 +151,11 @@ export default function AdminNotesController() {
 
   const hasActiveFilters = Boolean(
     debouncedSearch ||
-      selectedUniversity ||
-      selectedDegree ||
-      selectedYear ||
-      selectedSemester ||
-      selectedSubject,
+    selectedUniversity ||
+    selectedDegree ||
+    selectedYear ||
+    selectedSemester ||
+    selectedSubject,
   );
 
   return (
