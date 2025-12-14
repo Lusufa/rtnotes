@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
 
       {/* Branding */}
-      <div className="relative font-excon text-5xl font-black tracking-tighter text-nowrap opacity-15 lg:text-9xl">
+      <div className="font-excon relative text-5xl font-black tracking-tighter text-nowrap opacity-15 lg:text-9xl">
         <Image
           src="/doodles/superman.svg"
           width={200}
@@ -49,10 +49,7 @@ export default function Footer() {
       {/* Credits */}
       <div className="group flex items-center gap-2">
         <p className="opacity-50 transition-all duration-300 ease-in-out group-hover:opacity-100">
-          <Link
-            target="_blank"
-            href="https://portfolio-rt-iota.vercel.app"
-          >
+          <Link target="_blank" href="https://portfolio-rt-iota.vercel.app">
             Built by{" "}
             <span className="transition-all duration-300 ease-in-out group-hover:underline">
               Ritik & Utkarsh
