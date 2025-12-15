@@ -1,8 +1,11 @@
 "use client";
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
+
 import {
   ShieldWarningIcon,
   HouseIcon,
