@@ -95,9 +95,9 @@ export default function NotesFontControl() {
 
       const isCurrentlyFullscreen = Boolean(
         document.fullscreenElement ||
-        docWithFullscreen.webkitFullscreenElement ||
-        docWithFullscreen.mozFullScreenElement ||
-        docWithFullscreen.msFullscreenElement,
+          docWithFullscreen.webkitFullscreenElement ||
+          docWithFullscreen.mozFullScreenElement ||
+          docWithFullscreen.msFullscreenElement,
       );
       setIsZenMode(isCurrentlyFullscreen);
     };

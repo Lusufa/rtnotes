@@ -322,8 +322,9 @@ export default function AdminUserTable() {
     if (!confirmed) return;
     try {
       setIsRemovingDevice(deviceId);
-      const { adminRemoveUserDeviceAction } =
-        await import("../actions/admin-users");
+      const { adminRemoveUserDeviceAction } = await import(
+        "../actions/admin-users"
+      );
       const result = await adminRemoveUserDeviceAction({
         userId: targetUserId,
         deviceId,
@@ -349,8 +350,9 @@ export default function AdminUserTable() {
     if (!confirmed) return;
     try {
       setIsClearingAllDevices(userId);
-      const { adminClearAllUserDevicesAction } =
-        await import("../actions/admin-users");
+      const { adminClearAllUserDevicesAction } = await import(
+        "../actions/admin-users"
+      );
       const result = await adminClearAllUserDevicesAction(userId);
       if (result.success) {
         toast.success("All devices removed successfully");

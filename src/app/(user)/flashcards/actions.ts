@@ -208,8 +208,9 @@ export async function trackFlashcardSetVisitAction(setId: string) {
     }
 
     // Import the tracking function
-    const { trackFlashcardSetVisit } =
-      await import("@/dal/flashcard/user-query");
+    const { trackFlashcardSetVisit } = await import(
+      "@/dal/flashcard/user-query"
+    );
 
     await trackFlashcardSetVisit(userId, setId);
 

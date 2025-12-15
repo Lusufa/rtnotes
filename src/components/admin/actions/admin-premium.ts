@@ -181,7 +181,8 @@ export interface CreatePremiumPurchaseParams {
   failureReason?: string;
 }
 
-export interface UpdatePremiumPurchaseParams extends CreatePremiumPurchaseParams {
+export interface UpdatePremiumPurchaseParams
+  extends CreatePremiumPurchaseParams {
   purchaseId: string;
 }
 
